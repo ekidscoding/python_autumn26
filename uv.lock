@@ -17,7 +17,7 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/85/f5/d296d6e59a56098321ae032b4a8d1ff43ce999a3f14d8d9e2a61de122784/python-call-graph-2.1.6.tar.gz", hash = "sha256:24d49b1f348b6d85ab5ee886b240d38b983574e995bf38c18bbbe4c01865d950", size = 471205, upload-time = "2025-09-14T02:17:57.45Z" }
 
 [[package]]
-name = "python-spring26"
+name = "python-autumn26"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

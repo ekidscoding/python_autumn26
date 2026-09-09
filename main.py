@@ -1,5 +1,5 @@
 def main():
-    print("Hello from python-spring26!")
+    print("Hello from python-autumn26!")
 
 
 if __name__ == "__main__":
