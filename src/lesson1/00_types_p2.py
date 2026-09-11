@@ -1,5 +1,7 @@
 # For kids who want to know more
 
+# https://fastapi.tiangolo.com/uk/python-types/
+
 # Type Alias
 
 type Point = tuple[float, float]
