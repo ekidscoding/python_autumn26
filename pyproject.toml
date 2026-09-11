@@ -8,3 +8,6 @@ dependencies = [
     "cowsay>=6.1",
     "python-call-graph>=2.1.6",
 ]
+
+[tool.ruff]
+exclude = ["venv", ".venv"]
