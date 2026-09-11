@@ -36,10 +36,10 @@ uvx cowsay -t 'hello world!' -c "stegosaurus"
 uv run src/params_callable.py
 ```
 
-![`params_callable.py` Call Tree](assets/img/pycallgraph.png)
+![`params_callable.py` Call Tree](assets/img/callbacks/pycallgraph.png)
 
 Generated with
 
 ```shell
-pycallgraph -e '*lock*' -e '_find*' -e '_ModuleLock*' -e 'cb' --max-depth 4 graphviz --output-file=./assets/img/pycallgraph.png -- ./src/params_callable.py
+pycallgraph -e '*lock*' -e '_find*' -e '_ModuleLock*' -e 'cb' --max-depth 4 graphviz --output-file=./assets/img/callbacks/pycallgraph.png -- ./src/params_callable.py
 ```
